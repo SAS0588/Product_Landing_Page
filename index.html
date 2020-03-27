@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Rent-A-Lucha</title>
+    <meta name="description" content="Rent-A-Lucha" />
+    <meta name="author" content="SitePoint" />
+
+    <link rel="stylesheet" href="index.css" />
+
+  </head>
+
+  <body>
+    <div id="headerWrapper">
+      <header id="header" class="headerElement">
+        <div class="logoContainer">
+          <img
+            id="header-img"
+            class="logo"
+            src="http://luchadorseries.com/wp-content/uploads/2017/12/Luchador-Logo-Credit_-TNT-Cartoonist_vector_Coloured2-1079px-x-316px-e1512455056246.png"
+            alt="logo"
+          />
+          <img id="header-img-2" class="logo2" src="images/Luchador.png" />
+          <p class="logoText">Rent-A-Lucha</p>
+        </div>
+        <nav id="nav-bar" class="menuContainer">
+          <ul class="headerUl">
+            <a class="nav-link" href="#featureDiv">Features</a>
+            <a class="nav-link" href="#howItWorksDiv">How It Works</a>
+            <a class="nav-link" href="#pricingDiv">Pricing</a>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <div id="formDiv">
+      <form
+        id="form"
+        class="formElement"
+        action="https://www.freecodecamp.com/email-submit"
+      >
+        <h2 class="emailText">Subscribe to our newsletter</h2>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="Enter email address"
+          required
+        />
+        <input id="submit" type="submit" value="Subscribe" />
+      </form>
+    </div>
+    <div id="featureDiv">
+      <div class="iconsDiv">
+        <img class="icons" src="images/Strength.png" />
+        <img class="icons" src="images/Kindness.png" />
+        <img class="icons" src="images/Guarantee.png" />
+      </div>
+      <div class="iconTextDiv">
+        <div class="productDescriptions">
+          <h3>Strength</h3>
+          <p>
+            This is a sample sentence about the feature that will be described
+            in this section of the webpage.
+          </p>
+        </div>
+        <div class="productDescriptions">
+          <h3>Kindness</h3>
+          <p>
+            This is a sample sentence about the feature that will be described
+            in this section of the webpage.
+          </p>
+        </div>
+        <div class="productDescriptions">
+          <h3>Guarantee</h3>
+          <p>
+            This is a sample sentence about the feature that will be described
+            in this section of the webpage.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="howItWorksDiv">
+      <div id="videoDiv">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/VyF6E6YwsUo"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <div id="pricingDiv">
+      <div class="pricingStructure">
+        <div class="pricingHeader">
+          <h3>30 Minutes</h3>
+        </div>
+        <div class="pricingPrice">
+          <h2>$75</h2>
+        </div>
+      </div>
+      <div class="pricingStructure">
+        <div class="pricingHeader">
+          <h3>1 Hour</h3>
+        </div>
+        <div class="pricingPrice">
+          <h2>$125</h2>
+        </div>
+      </div>
+      <div class="pricingStructure">
+        <div class="pricingHeader">
+          <h3>2 Hours</h3>
+        </div>
+        <div class="pricingPrice">
+          <h2>$225</h2>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>

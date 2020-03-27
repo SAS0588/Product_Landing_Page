@@ -1,0 +1,136 @@
+/* body{
+    background-color: #FAFAFA;
+}
+.headerElement{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+}
+.logoContainer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+}
+
+@media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+
+.logo{
+    display: none;
+}
+
+.logo2{
+    height: 70px;
+    width: 70px;
+}
+
+.logoText{
+    align-self: center;
+    margin-left: 20px;
+}
+
+.headerUl{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.nav-link{
+    margin-left: 80px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.menuContainer{
+    display: flex;
+    align-self: center;
+    margin-right: 70px;
+}
+
+#formDiv{
+    padding-top: 80px;
+}
+
+.emailText{
+    margin-bottom: 5px;
+}
+
+#featureDiv{
+    padding-top: 80px;
+}
+
+.formElement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#featureDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.iconsDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.iconTextDiv{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-left: 50px;        
+}
+
+.icons{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 40px;
+}
+
+.productDescriptions{
+    margin-bottom: 50px;
+}
+
+#videoDiv{
+    display: flex;
+    justify-content: center;
+}
+#pricingDiv{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pricingStructure{
+    margin: 10px;
+    width: 300px;
+    height: 240px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pricingHeader{
+    border: 1px solid gray;
+    background-color: gray;
+}
+
+@media screen and (max-width: 480px){
+    body{
+        background-color: red;
+    }
+} */
